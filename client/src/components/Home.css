@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffffff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.about {
+    padding: 60px 20px; /* Increased top and bottom padding for height */
+    background: #e9ecef; /* Light grey background for contrast */
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center; /* Center align the heading */
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5; /* Improve readability with line height */
+    text-align: center; /* Center align the paragraph */
+}
+
+.footer {
+    background: #333; /* Dark background for the footer */
+    color: #fff;
+    text-align: center; /* Center align footer text */
+    padding: 20px 0; /* Increased padding for height */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Space above the footer */
+}
